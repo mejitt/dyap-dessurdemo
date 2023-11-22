@@ -36,6 +36,10 @@ p {
     line-height: 22px;
 }
 
+img {
+  width: 100%;
+}
+
 
 .section-heading {
     text-align: center;
@@ -88,7 +92,7 @@ a.menu-link { display: none; }
     display: block;
     font-size: 36px;
     padding-right: 30px;
-    padding-top: 15px;
+    padding-top: 5px;
   }
   nav[role="navigation"] {
     clear: both;
@@ -128,7 +132,7 @@ a.menu-link { display: none; }
   }
   nav[role="navigation"] li:hover a,
   nav[role="navigation"] li.active a {
-      color: #e91e20;
+      color: #333;
   }
   
   @media screen and (min-width: 951px) {
@@ -183,6 +187,29 @@ a.menu-link { display: none; }
     font-weight: 800;
     color: #000;
 }
+
+@media (min-width:951px) {
+  .main-header .logo {
+    width: 100%;
+  }
+
+  .main-header .logo a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width:951px) {
+
+  .main-header .logo a {
+    font-size: 25px !important;
+  }
+
+  .fa-bars {
+    font-size: 70% !important;
+  }
+}
 .main-header .logo a em {
     font-style: normal;
     color: #e91e20;
@@ -191,7 +218,12 @@ a.menu-link { display: none; }
 .main-menu {
     float: right;
     padding-right: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
 }
+
+
 
 .main-menu li {
     display: inline-block;
@@ -333,6 +365,10 @@ a.menu-link { display: none; }
   font-weight: 600;
   color: #000;
   letter-spacing: 1px;
+}
+
+.caption img {
+  width: 50%;
 }
 
 .main-banner .caption h2 {
@@ -513,6 +549,23 @@ section.why-us {
   -moz-column-gap: 0;
   column-gap: 0;
 }
+
+@media (max-width:550px) {
+  #tabs ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #tabs ul li {
+    margin: 20px 0;
+  }
+
+  .col-md-6 h4 {
+    font-size: 18px !important;
+  }
+}
+
+
 #tabs ul::after {
   clear: both;
   content: "";
@@ -908,6 +961,13 @@ body {
   color: #000;
   position: relative;
 }
+
+@media (max-width:550px) {
+  .nice-header {
+    font-size: 25px !important;
+  }
+}
+
 .container .nice-header .sub {
   color: #fff;
   position: absolute;
@@ -1527,6 +1587,10 @@ section.contact {
     background-size: cover;
     background-color: #fff;
     padding-bottom: 120px;
+}
+
+iframe {
+  width: 100%;
 }
 
 
