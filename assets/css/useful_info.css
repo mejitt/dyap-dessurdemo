@@ -47,11 +47,6 @@ body {
     transition: all .5s;
 }
 
-#information .info_item .img {
-    background-image: url('../images/Rights_of_migrants_RUS-1.png');
-}
-
-
 
 #information .info_item_link:hover {
     background-color: rgba(0,0,0,20%);
