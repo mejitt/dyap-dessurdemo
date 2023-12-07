@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/lightbox2/dist/css/lightbox.min.css">
 
     <title>Dyap-Dessur Demo</title>
     
@@ -19,6 +20,8 @@
     <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 
   </head>
 
@@ -33,13 +36,8 @@
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-        <li><a href="tm.html">Baş sahypa</a></li>
-        <li class="has-submenu"><a href="#section2">Gurama barada</a>
-          <ul class="sub-menu">
-            <li><a href="#section2">Biz barada</a></li>
-            <li><a href="#section3">Biziň işlerimiz</a></li>
-            <li><a href="#section3">Biziň Partnyorlar</a></li>
-            </ul>
+        <li><a href="index.html">Baş sahypa</a></li>
+        <li><a href="#section2">Gurama barada</a>
         </li>
         <li><a href="#section4">Habarlar</a></li>
         <li><a href="#sectionf">Sorag-Jogap</a></li>
@@ -49,10 +47,11 @@
     </nav>
   </header>
 
+
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/course-video.p4" type="video/mp4" />
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -73,7 +72,7 @@
           <div class="features-post">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-pencil"></i> <span>HYZMATLARYMYZ</span></h4>
+                <h4><span>HYZMATLARYMYZ</span></h4>
               </div>
               <div class="content-hide">
                 <p>Howpsuz migrasiýa barada size kömek we maslahat bermek üçin aşakdaky baglanyşyga basyp, biziň bilen habarlaşyň.</p>
@@ -87,7 +86,7 @@
           <div class="features-post second-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>KITAPHANA</h4>
+                <h4>KITAPHANA</h4>
               </div>
               <div class="content-hide">
                 <p>Ýakynda goşular täzelikleri yzarlaň</p>
@@ -101,14 +100,14 @@
           <div class="features-post third-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-book"></i>BUKLETLAR</h4>
+                <h4>BUKLETLAR</h4>
               </div>
               <div class="content-hide">
                 <p>
                   Aşakdaky baglanyşyga basyp, hyzmatdaşlarymyz "Maşgala" jemgyýetçilik guramasynyň web sahypasyndaky kitapçalar bilen tanşyp bilersiňiz.</p>
                 <p class="hidden-sm">
                   Aşakdaky baglanyşyga basyp, hyzmatdaşlarymyz "Maşgala" jemgyýetçilik guramasynyň web sahypasyndaky kitapçalar bilen tanşyp bilersiňiz.</p>
-                <div class="scroll-to-section"><a href="https://oomasgala.com/broshures/">Git</a></div>
+                <div class="scroll-to-section"><a id="golink" href="./useful_information_tm.html">Git</a></div>
             </div>
             </div>
           </div>
@@ -130,16 +129,18 @@
           <div id='tabs'>
             <ul>
               <li><a href='#tabs-1'>Biz Barada</a></li>
-              <li><a href='#tabs-2'>Biziň işlerimiz</a></li>
-              <li><a href='#tabs-3'>BIZIŇ HYZMATDAŞLARYMYZ</a></li>
+              <li><a href='#tabs-2'>BIZIŇ HYZMATDAŞLARYMYZ</a></li>
+              <li><a href='#tabs-3'>Biziň işlerimiz</a></li>
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
                 <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+                  <div class="col-md-12">
+                   <a href="./assets/images/collegue2.jpg" data-lightbox="image-collegue2">
+                    <img src="assets/images/collegue2.jpg" alt="">
+                   </a>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <h4>Biz Barada</h4>
                     <p> “Gözel zöhre ýyldyzy” hojalyk jemgyýeti (täze ady “Däp-Dessur”) 2009-njy ýylyň iýul aýynda döredildi. Diňe 2009-2013-nji ýyllar aralygynda bu gurama dürli ugurlarda 35-den gowrak taslamany işläp düzdi we durmuşa geçirdi, hemaýatkäri ABŞ-nyň ilçihanasy we beýleki halkara guramalarydy. Ähli taslamalar ýaşlara, ilatyň ejiz toparlaryna, daýhanlara we oba hojalyga sosial kömek bermek ýaly sebitiň möhüm meselelerini çözmäge gönükdirildi.
                       Bu gurama oba ýerlerinde işewir merkezlerini açmakda (mysal üçin, Baýramaly işewir merkeziniň işini öňe sürmekde) kömek we goldaw bermek ugrunda işledi. Şeýle hem Baýramaly etrabynyň Zähmet obasynda we Mary etrabynda kiçi tikinçilik ussahanalaryny açmak, Mary sebitindäki oba hojalyklarynyň birinde biogumus ulanmak boýunça öz işiňi açmak, daşky gurşaw meseleleri boýunça maslahatlar, suw baýlyklaryny tygşytly peýdalanmak we beýleki taslamalarda kömek berdi.
@@ -154,31 +155,12 @@
               </article>
               <article id='tabs-2'>
                 <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
+                  <div class="col-md-12">
+                   <a href="./assets/images/collegue1.jpg" data-lightbox="image-collegue1">
+                    <img src="assets/images/collegue1.jpg" alt="collegue">
+                   </a>
                   </div>
-                  <div class="col-md-6">
-                    <h4>Biziň işlerimiz</h4>
-                    <p><br>
-
-Maşgalada ruhy taýdan özara kömek etmek, ruhy we hünär taýdan ösmek üçin mümkinçilikleri giňeltmek üçin maşgalanyň we olaryň agzalarynyň jemgyýetdäki sosial uýgunlaşmagyna kömek.
-Iş ugry:<br>
-• Maşgalalaryň we maşgala agzalarynyň jemgyýetinde wekilçilik etmek we gyzyklanmalary goramak.<br>
-• Maşgala agzalary üçin goşmaça bilim almagy ýeňilleşdirmek.<br>
-• Işsiz maşgala agzalaryna maglumat kömegi bermek.<br>
-• Kömege mätäç maşgalalaryň peýdasyna haýyr-sahawat çärelerini geçirmek.<br>
-• Medeni we bilim, bilim we usulyýet çärelerini guramak we geçirmek.<br>
-• Sagdyn durmuş ýörelgesi üçin maşgala agzalaryna ahlak we ruhy goldaw bermek.<br>
-• Lukmançylyk, hukuk, ruhy we jemgyýetçilik meselelerinde iş we hyzmatlar bilen maslahatlaşmak.</p>
-                  </div>
-                </div>
-              </article>
-              <article id='tabs-3'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
-                  </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <h4>BIZIŇ HYZMATDAŞLARYMYZ</h4>
                     <p>
                       Däp-Dessur guramasy <a href="https://www.usaid.gov/ru/central-asia-regional/fact-sheets/safe-migration-central-asia"> USAID </a> ýaly Amerikan taslamalary bilen howpsuz migrasiýa meseleleri boýunça ýakyndan işleýär. Winrock International, dünýäniň käbir kyn sosial, oba hojalygy we daşky gurşaw meselelerini teklip etmekde we çözmekde ABŞ-da we halkara jemgyýetçiliginde tanalýan liderdir. “Winrock International” -yň maksady gowşak jemgyýetlere kuwwat bermek, ykdysady mümkinçilikleri giňeltmek we tebigy baýlyklary tygşytlamak.
@@ -186,6 +168,29 @@ Iş ugry:<br>
                   </div>
                 </div>
               </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="./assets/images/immegartion1.avif" data-lightbox="image1">
+                      <img src="assets/images/immegartion1.avif" alt="family">
+                    </a>
+                  </div>
+                  <div class="col-md-12 w-100">
+                    <h4>Biziň işlerimiz</h4>
+                    <p><br>
+                        Maşgalada ruhy taýdan özara kömek etmek, ruhy we hünär taýdan ösmek üçin mümkinçilikleri giňeltmek üçin maşgalanyň we olaryň agzalarynyň jemgyýetdäki sosial uýgunlaşmagyna kömek.
+                        Iş ugry:<br>
+                        • Maşgalalaryň we maşgala agzalarynyň jemgyýetinde wekilçilik etmek we gyzyklanmalary goramak.<br>
+                        • Maşgala agzalary üçin goşmaça bilim almagy ýeňilleşdirmek.<br>
+                        • Işsiz maşgala agzalaryna maglumat kömegi bermek.<br>
+                        • Kömege mätäç maşgalalaryň peýdasyna haýyr-sahawat çärelerini geçirmek.<br>
+                        • Medeni we bilim, bilim we usulyýet çärelerini guramak we geçirmek.<br>
+                        • Sagdyn durmuş ýörelgesi üçin maşgala agzalaryna ahlak we ruhy goldaw bermek.<br>
+                        • Lukmançylyk, hukuk, ruhy we jemgyýetçilik meselelerinde iş we hyzmatlar bilen maslahatlaşmak.</p>
+                  </div>
+                </div>
+              </article>
+              
             </section>
           </div>
         </div>
@@ -409,7 +414,7 @@ Iş ugry:<br>
               <h4>Dyap-dessur</h4>
             </div>
             <figure>
-              <a href="https://www.youtube.com/watch?v=vZcK-rZaUBs" class="play"><img src="assets/images/main-thumb.jpg"></a>
+              <a href="./assets/images/course-video.mp4" class="play"><img src="assets/images/main-thumb.jpg"></a>
             </figure>
           </article>
         </div>
@@ -417,63 +422,63 @@ Iş ugry:<br>
     </div>
   </section>
 
-  <section class="section contact" data-section="section6">
+  <!-- privacy -->
+
+  <section id="privacy">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Aragatnaşykda bolalyň</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-                    
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Adyňyz*" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Mail*" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Habaryňyz..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">
-                    Habar iber</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3161.4313503254975!2d61.830087!3d37.592006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f418e3071c0911f%3A0x6036e7459d268f09!2sSingarella%20office!5e0!3m2!1sru!2s!4v1696443799282!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+          <p><i class="fa fa-copyright"></i>   BU SAÝT AMERIKAN HALKYNYŇ GOLDAWY ARKALY ABŞ-NYŇ HALKARA ÖSÜŞ AGENTLIGIŇ (USAID) ÜSTI BILEN AMALA AŞYRYLDY. SAÝTYŇ MAZMUNY ÜÇIN "DÄP-DESSUR" HOJALYK JEMGYÝETI JOGAPKÄRÇILIK ÇEKÝÄR WE BU SAÝT HÖKMANY SURATDA USAID-IŇ ÝA-DA ABŞ-NYŇ HÖKÜMETINIŇ GARAÝYŞLARYNY AŇLADÝAR DIÝLIP DÜŞÜNILMELI DÄLDIR.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Bu saýt amerikan halkynyň goldawy arkaly ABŞ-nyň Halkara ösüş agentligiň (USAID) üsti bilen amala aşyryldy. Saýtyň mazmuny üçin "DÄP-DESSUR" Hojalyk Jemgyýeti jogapkärçilik çekýär we bu saýt hökmany suratda USAID-iň ýa-da ABŞ-nyň hökümetiniň garaýyşlaryny aňladýar diýlip düşünilmeli däldir.
-          </p>
- <img src="assets/images/logos.jpg" alt="Course #1">
-        </div>
-      </div>
-    </div>
-  </footer>
+
+  <!-- FOOOTER -->
+
+ <section class="section" data-section="section6">
+  <footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-3">
+					<a href="#" class="brand">
+						<img src="assets/images/ddlogo.png" alt="" class="brand__main" >
+					</a>
+	
+				</div>
+	
+				
+				<div class="col-lg-3">
+
+          <a href="#" class="brand">
+						<img src="assets/images/usaid.png" alt="" class="brand__main">
+					</a>
+				
+				</div>
+			
+				
+				<div class="col-lg-3">
+          <a href="#" class="brand">
+						<img src="assets/images/winrock.png" alt="" class="brand__main">
+					</a>
+				</div>
+			
+				<div class="col-lg-3">
+					<ul class="footer__contacts">
+						<li>ADRESS:MARY SAHER, посёлок Арзув, KOÇE HUDAYBERDIÝEWA, OÝ.31А</li>
+						<li>HABARLAŞMAK: <a href="tel:+99361291018">+99361291018</a></li>
+						<li>IŞ WAGT: 09:00 - 18:00</li>
+						<li>E-mail: <a href="mailto:dyap-dessur23@mail.ru">dyap-dessur23@mail.ru</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
@@ -537,5 +542,21 @@ Iş ugry:<br>
         $(window).scroll(function () {
           checkSection();
         });
+        
+        
+        $("a#golink").click(function (e) {
+        e.preventDefault();
+        var href = $(this).attr("href");
+        window.open(href);
+        return false;
+        });
+
     </script>
+     <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
+      
+  </script>
 </body>
