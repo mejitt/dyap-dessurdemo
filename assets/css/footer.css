@@ -1,5 +1,5 @@
 .footer {
-	background-color: #5ba7ff;
+	background-color: #fff;
 	padding: 10px 0;
 	
 }
@@ -21,7 +21,8 @@
 
 .footer__contacts li a:hover {
 	color: #f40b0b !important;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+	transform: translateX(10px);
 }
 
 

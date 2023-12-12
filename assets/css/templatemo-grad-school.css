@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-	color: #5ba7ff;
+	color: #000;
     text-decoration: none;
 }
 
@@ -326,7 +326,7 @@ a.menu-link { display: none; }
   margin-bottom: -7px;
 }
 
-#bg-video {
+#bg-img img {
     min-width: 100%;
     min-height: 100vh;
     max-width: 100%;
@@ -1571,7 +1571,7 @@ iframe {
 }
 
 #privacy p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 700;
 }
