@@ -383,6 +383,15 @@ body {
     width: 80% !important;
 }
 
+.about .about_our-job li { 
+    list-style-type: disc;
+    padding: 10px 0;
+}
+
+.about .about_our-job span {
+    font-weight: 600;
+}
+
  /* active-link */
 
 /* .active-link {
@@ -391,9 +400,10 @@ body {
 
 .book-container {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 30px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .book-item a {
@@ -404,6 +414,12 @@ body {
     font-size: 15px;
     border-radius: 4px;
     transition: all 0.3s;
+}
+
+.book-item img {
+    height: 250px;
+    box-shadow: 1px 1px 7px 10px #ccc;
+    border-radius: 4px;
 }
 
 .book-item a:hover {
