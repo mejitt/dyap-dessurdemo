@@ -392,6 +392,10 @@ body {
     font-weight: 600;
 }
 
+.about .about__article-link {
+    text-decoration: underline;
+}
+
  /* active-link */
 
 /* .active-link {
